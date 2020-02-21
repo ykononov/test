@@ -1,0 +1,22 @@
+body {
+	background: yellow;
+}
+
+$color: blue;
+$d-color: orange;
+
+.test {
+	margin-bottom: 50px;
+
+	.test-inn {
+		border: 1px $color solid;
+		font-size: 5em;
+		background: hsla(255,0,0,.10);
+		box-shadow: -5px -5px 30px $d-color;
+	}
+}
+
+#test_el {
+	border: 5px black dotted;
+	background: brown;	
+}
